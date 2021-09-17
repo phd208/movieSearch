@@ -17,7 +17,7 @@ public class Search {
     public static String searchRapidAPI(String searchKey) throws UnsupportedEncodingException, UnirestException {
         String host = "https://movie-database-imdb-alternative.p.rapidapi.com/";
         String apiHost = "movie-database-imdb-alternative.p.rapidapi.com";
-        String apiKey = "6b32e3a59dmsh259e3e816f239f6p13ea3djsn285b114e7b04";
+        String apiKey = "env";
 
         String query;
 
